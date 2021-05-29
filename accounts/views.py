@@ -6,10 +6,10 @@ def home(req):
     return render(req,'accounts/dashboard.html')
 
 def products(req):
-    return HttpResponse('products page')
+    return render(req,'accounts/products.html')
 
 def customers(req):
-    return HttpResponse('customers page')
+    return render(req,'accounts/customers.html')
 
 
 '''
